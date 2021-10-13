@@ -1,0 +1,19 @@
+{
+  "name": "tp6_ing_soft",
+  "version": "1.0.0",
+  "description": "Trabajo practico 6 UNIT TESTS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Crepot/tp6_ing_soft.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Crepot/tp6_ing_soft/issues"
+  },
+  "homepage": "https://github.com/Crepot/tp6_ing_soft#readme"
+}
