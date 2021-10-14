@@ -1,5 +1,5 @@
 const assert = require("chai").assert;
-const tarjeta = require("../src/tarjetanp");
+const tarjeta = require("../src/tarjeta");
 const carrito = require("../src/carrito");
 
 describe("checkCardNumber", function () {
