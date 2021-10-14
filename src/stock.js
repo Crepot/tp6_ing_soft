@@ -5,7 +5,7 @@ function checkStock(cantidad,stock){
         return result
     }else{
         result = {
-            code: 200,
+            stock: 200,
             status: 'on stock'
         }
         return result; // Esto es un comentario
