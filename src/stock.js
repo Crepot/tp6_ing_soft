@@ -1,10 +1,7 @@
 function checkStock(cantidad,stock){
     let result;
     if(cantidad > stock){
-        result = {
-            code: 210,
-            status: 'out of stock'
-        }
+        result = false
         return result
     }else{
         result = {

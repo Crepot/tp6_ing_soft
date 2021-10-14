@@ -18,11 +18,11 @@ describe('Stock functions: \n', function(){
 
 describe('OTHER functions: \n', function(){
     let result;
-    it('otehr functios should return something 01',function(){
+    it('other functios should return something 01',function(){
         result = stock.checkStock(3,10);
         assert.isObject(result,'FAIL');
     })
-    it('otehr functios should return something 02',function(){
+    it('other functios should return something 02',function(){
         result = stock.addStock(3,10);
         assert.isObject(result,'FAIL');
     })
