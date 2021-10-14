@@ -37,16 +37,38 @@ describe('carrito cantidad: \n', function(){
 
     it('carroVacio ',function(){
         assert.isBelow(carroVacio,1);
-        console.log('No puede etrar al carrito porque este esta vacio')
-
     })
 
     it('carro no Vacio ',function(){
+<<<<<<< HEAD
         assert.isBelow(carroConArticulo,5);  //
         console.log('puede entrar al carrito ')
 
+=======
+        assert.isAbove(carroConArticulo,0);  //
+>>>>>>> 294b0403a6148d41f0860c5951038fdbdfa28f8f
     })
 
 })
 
 
+<<<<<<< HEAD
+=======
+//npm test
+
+const brandCreditCard = otros.tarjetaBanco('Banelco');
+const brandCreditCard2 = otros.tarjetaBanco('Mastercard');
+
+describe('credit Card Brand', function(){
+        
+    it('banco aceptado',function(){
+        assert.equal(brandCreditCard, 'Banelco');
+    });
+
+
+
+    it('banco aceptado',function(){
+        assert.equal(brandCreditCard2, 'Banelco');
+    });
+});
+>>>>>>> 294b0403a6148d41f0860c5951038fdbdfa28f8f
