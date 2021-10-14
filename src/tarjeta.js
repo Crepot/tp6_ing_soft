@@ -13,6 +13,13 @@ function checkCardNumberLength(card){
         return true;
     }else{
         return false;
-    }
-}
-module.exports ={checkSecurityCodeLength,checkCardNumberLength}
+    }}
+    function checkCardNumber(cardNumber) {
+        if (cardNumber.match(/^[0-9]+$/)) {
+          return true;
+        } else {
+          return false;
+        }
+      }
+
+module.exports ={checkSecurityCodeLength,checkCardNumber,checkCardNumberLength}
