@@ -11,14 +11,10 @@ describe('carrito cantidad: \n', function(){
 
     it('carroVacio ',function(){
         assert.isBelow(carroVacio,1);
-        console.log('No puede etrar al carrito porque este esta vacio')
-
     })
 
     it('carro no Vacio ',function(){
         assert.isAbove(carroConArticulo,0);  //
-        console.log('puede entrar al carrito ')
-
     })
 
 })
@@ -33,13 +29,11 @@ describe('credit Card Brand', function(){
         
     it('banco aceptado',function(){
         assert.equal(brandCreditCard, 'Banelco');
-        console.log('tarjeta Aceptada ')
     });
 
 
 
     it('banco aceptado',function(){
         assert.equal(brandCreditCard2, 'Banelco');
-        console.log('tarjeta no Aceptada ')
     });
 });
