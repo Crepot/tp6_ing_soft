@@ -1,7 +1,7 @@
 const assert = require("chai").assert;
 const carrito = require("../src/carrito");
 
-describe("verificarNumeroEntero", function () {
+describe("verificarNumeroEntero \n", function () {
   it("verificarNumeroEntero debe retornar: true", function () {
     let result = carrito.verificarNumeroEntero(10);
     assert.isTrue(result);
