@@ -1,15 +1,29 @@
+const assert = require('chai').assert;
+const stock = require('../src/stock');
 
-function test001(cantidad,stock){
-    if(cantidad > stock){
-        cantidad
-        return {code: 210,
-                err: 'out of stock'
-        }
-    }else{
-        console.log('hola');
-        console.log('CREPOT');
-        return cantidad;// Esto es un comentario
-    }
-}
 
-module.exports = {test001}
+
+describe('Stock functions: \n', function(){
+    let result;
+    it('checkStock should return code: 200 and status: on stock ',function(){
+        result = stock.checkStock(3,10);
+        assert.isObject(result,'FAIL');
+    })
+    it('addStock should return code: 200 and total stock units ',function(){
+        result = stock.addStock(3,10);
+        assert.isObject(result,'FAIL');
+    })
+})
+
+
+describe('OTHER functions: \n', function(){
+    let result;
+    it('otehr functios should return something 01',function(){
+        result = stock.checkStock(3,10);
+        assert.isObject(result,'FAIL');
+    })
+    it('otehr functios should return something 02',function(){
+        result = stock.addStock(3,10);
+        assert.isObject(result,'FAIL');
+    })
+})

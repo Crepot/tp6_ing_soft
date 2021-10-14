@@ -4,7 +4,8 @@
   "description": "Trabajo practico 6 UNIT TESTS",
   "main": "index.js",
   "scripts": {
-    "test": "mocha",
+    "test": "mocha || true",
+    "start": " node index.js",
     "lint": "eslint ./src/**/*.js",
     "lint:fix": "npm run lint -- --fix",
     "clean": "rimraf dist etc"
