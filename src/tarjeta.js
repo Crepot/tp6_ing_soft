@@ -22,4 +22,4 @@ function checkCardNumberLength(card){
         }
       }
 
-module.exports ={checkSecurityCodeLength,checkCardNumberLength}
+module.exports ={checkSecurityCodeLength,checkCardNumber,checkCardNumberLength}
