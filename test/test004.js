@@ -9,7 +9,7 @@ describe("checkCardNumber \n", function () {
   });
 });
 
-describe("checkQuantity", function () {
+describe("checkQuantity \n", function () {
   it("checkQuantity should return: true", function () {
     let result = carrito.checkQuantity("10");
     assert.isTrue(result);

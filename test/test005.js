@@ -8,7 +8,7 @@ describe("verificarNumeroEntero \n", function () {
   });
 });
 
-describe("verificarPrecioTotal", function () {
+describe("verificarPrecioTotal \n", function () {
   it("verificarPrecioTotal debe retornar: $1000", function () {
     let result = carrito.verificarPrecioTotal(2, 500);
     assert.equal(result, 1000);
